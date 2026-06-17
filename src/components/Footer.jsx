@@ -174,6 +174,14 @@ const Footer = () => {
               >
                 <span className="relative z-10">Contact Us</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full right-0 mb-3 w-72 bg-gray-800 border border-gray-700 rounded-xl p-4 text-gray-300 text-xs leading-relaxed invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-300 z-50 shadow-xl pointer-events-none">
+                  <p className="font-semibold text-white mb-1">Contact Us</p>
+                  <p className="mb-2">Having issues or questions? We're here to help! Reach out to our support team and we'll get back to you as soon as possible.</p>
+                  <p className="text-gray-400">📧 support@jobportal.com</p>
+                  <p className="text-gray-400">📞 +1 (800) 123-4567</p>
+                  <p className="text-gray-400">🕐 Mon–Fri, 9 AM – 6 PM EST</p>
+                  <div className="absolute top-full right-4 border-4 border-transparent border-t-gray-700"></div>
+                </div>
               </Link>
             </div>
             <div className="text-center md:text-right">
